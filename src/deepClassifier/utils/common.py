@@ -9,7 +9,7 @@ from box import ConfigBox
 from pathlib import Path
 from typing import Any
 
-@ensure_annotations
+@ensure_annotations  # To through error we used this 
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
     """reads yaml file and returns
 
